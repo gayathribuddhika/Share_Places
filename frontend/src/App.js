@@ -1,17 +1,24 @@
-import './App.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 
-import User from './user/pages/Users';
+import Users from "./user/pages/Users";
 
 const App = () => {
   return (
     <Router>
-      <Route path={"/"}>
-        <User/>
-      </Route>
+      <Switch>
+        <Route path={"/users"}>
+          <Users />
+        </Route>
+        <Redirect to={"/"} />
+      </Switch>
     </Router>
-    
   );
-}
+};
 
 export default App;
