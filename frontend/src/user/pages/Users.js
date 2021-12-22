@@ -8,7 +8,7 @@ const Users = () => {
       id: 1,
       name: "Gayathri Buddhika",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fgayathribuddhika&psig=AOvVaw08u-APuTn3FDdbBAIgU84m&ust=1640009367810000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjihJ-F8PQCFQAAAAAdAAAAABAD",
+        "https://avatars.githubusercontent.com/u/39160904?v=4",
       places: 3,
     },
   ];
